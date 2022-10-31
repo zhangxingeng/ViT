@@ -1,2 +1,5 @@
-__pycache__/
-*.zip
+**/__pycache__/
+**/*.zip
+/.vscode/
+/data/
+/plots/
