@@ -22,6 +22,9 @@ def plotTwo(l1, l2, title, savePath):
     plt.savefig(savePath, transparent=True)
     plt.clf()
 
+
+
+
 if __name__ == '__main__':
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     dataDir = './data/'
